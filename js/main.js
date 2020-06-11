@@ -94,7 +94,7 @@ tl3.to("#pattern-3-1, #pattern-1-1", mainDuration3, { drawSVG: 100 - sp3 + "%" +
 tl3.add("overlap3");
 tl3.to("#pattern-3-1, #pattern-1-1", overlapDuration3, { drawSVG: "100% 100%" }, "overlap3");
 tl3.to("#pattern-3-2, #pattern-1-2", overlapDuration3, { drawSVG: drawTurn3 }, "overlap3");
-
+code 
 tl3.set("#pattern-3-1, #pattern-1-1", { drawSVG: drawTurn3 }, "switchPlaces3");
 tl3.set("#pattern-3-2, #pattern-1-2", { drawSVG: "0% 0%" }, "switchPlaces3");
 
